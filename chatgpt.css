@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: black;
+    color: white;
+  }
+  
+  form {
+    margin: 20px 0;
+  }
+  
+  label {
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 18px;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #answer {
+    font-size: 20px;
+    margin: 20px 0;
+  }
+  
+  #image {
+    width: 300px;
+    margin: 20px 0;
+  }

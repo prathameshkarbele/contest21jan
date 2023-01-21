@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prathamesh karbele F2 content @ 21 jan 2023</title>
+    <link rel="stylesheet" href="style.css">
+    <script
+    src="https://kit.fontawesome.com/b46a698637.js"
+    crossorigin="anonymous"
+  ></script>
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h1>Login</h1>
+            <!-- //id="loginForm" -->
+            <form onsubmit="return validateLoginForm()">
+                <div class="input-group">
+                    <div class="input_field">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" id="email" placeholder="Email">
+                    </div>
+                    <div class="input_field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" id="password" placeholder="Password">
+                    </div>
+                </div>
+
+                <p id="error" class="error-msg"></p>
+
+                <div class="btn-feild">
+                    <button type="button"  onclick="return validateLoginForm()">Submit</button>
+                </div>
+            </form>
+        </div>
+        
+  <script src="script.js"></script>
+</body>
+</html>
